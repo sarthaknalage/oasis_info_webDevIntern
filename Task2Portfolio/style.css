@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:wght@200;400&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+div.container {
+    display: flex;
+    flex-direction: left;
+    /* background-color: brown; */
+    margin-top: -115px;
+}
+
+div.slidebar{
+    width:220px;
+    height:100vh;
+    background-color: rgb(155, 134, 134);
+    display: none;
+}
+div.infobar {
+    width: 100%;
+    height: 299px;
+    /* background-color: rgb(29, 134, 109); */
+    background-color: rgb(220 231 228);
+    /* margin: auto; */
+    /* margin: 98px; */
+    display: flex;
+    margin-top: 92px;
+}
+div.image {
+    height: 83%;
+    /* border: 2px solid red; */
+    width: 221px;
+    margin-left: 45%;
+    margin-top: 29px;
+    border-radius: 202px;
+}
+div.phonemedia{
+    display: none;
+}
+div.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 142px;
+}
+div.myself{
+    margin-left:68px;
+    font-family: 'Poppins', sans-serif;
+}
+div.hello{
+    margin-top: 84px;
+    font-size: 19px;
+
+}
+div.Name{
+    font-family: 'Poppins', sans-serif;
+    margin: 2px;
+    font-size: 29px;
+
+}
+div.navbar {
+    display: flex;
+    flex-direction: left;
+    position: relative;
+    top: -19px;
+}
+div.media {
+    margin-top: 45px;
+    /* margin-right: 39px; */
+    margin-left: 22%;
+}
+ul.Index{
+    margin-left: 23px;
+    margin-top: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: left;
+    margin-left: 78px;
+    margin-top: 38px;
+    
+}
+
+ul.Index li {
+    margin-bottom: 17px;
+    font-size: 23px;
+}
+ul.Index li a{
+    text-decoration: none;
+    color:black;
+    margin-left: 34px;
+
+}
+ul.Index li a:hover{
+    color:red;
+    font-family: 'Poppins', sans-serif;
+}
+button.contact{
+    margin-left: 15px;
+    font-size: 14px;
+    padding: 3px;
+    margin-top: 12px;
+    background-color: #4e5858;
+    color: white;
+    cursor: pointer;
+}
+button.cvv{
+   
+    font-size: 14px;
+    padding: 3px;
+    margin-top: 12px;
+    background-color: #4e5858;
+    color: white;
+    cursor: pointer;
+}
+button.cvv:hover{
+    background-color: white; 
+    color:  #4e5858;
+
+}
+button.contact:hover{
+    background-color: white; 
+    color:  #4e5858;
+
+}
+div.hamburger{
+    margin-left: 152px;
+    cursor: pointer;
+   
+}
+div.line{
+    font-size: 72px;
+}
+div.line1{
+    margin-top:-74px;
+}
+div.hamburger:hover{
+color:#4e5858
+}
+
+div.services{
+    width: 94%;
+    height: 299px;
+    /* background-color: rgb(29, 134, 109); */
+    /* border: 2px solid red; */
+    /* margin: auto; */
+    /* margin: 68px; */
+   
+    margin-top: 36px;
+    display:flex;
+    flex-direction: left;
+   
+
+}
+.fa-lock:before {
+    content: "\f023";
+    color: #ff7800;
+    font-size: 74px;
+}
+div.software{
+    margin-left: 9%;
+    /* border: 2px solid red; */
+    width: 270px;
+}
+ div.info{
+    margin-top: 28px;
+}
+ div.info h3{
+    margin-bottom:10px;
+}
+div.info p{
+    font-family: 'Lato', sans-serif;
+font-family: 'Poppins', sans-serif;
+color:#939999
+}
+div.Web{
+    margin-left: 14%;
+    /* border: 2px solid red; */
+    width: 270px;
+}
+div.result{
+    margin-left: 13%;
+    /* border: 2px solid red; */
+    width: 270px;
+}
+
+div.contactme{
+    
+    display:flex;
+    flex-direction: left;
+    width: 100%;
+    height: 299px;
+    /* background-color: rgb(29, 134, 109); */
+    background-color: rgb(220 231 228);
+    /* margin: auto; */
+   
+  
+   margin-top: 42px;
+   
+}
+
+div.burger {
+    position: relative;
+    top: 52px;
+    width:10px;
+    left: 32px;
+    display: none;
+}
+div.burger div.line {
+    width: 34px;
+    color: black;
+    margin-bottom: -72px;
+}
+
+div.amol{
+    width: 19%;
+    margin-left: 7%;
+    margin-top: 37px;
+}
+div.contactus{
+    margin-left: 17%;
+    margin-top: 37px;
+}
+div.menu{
+    margin-left: 20%;
+    margin-top: 37px;
+}
+div.menu a{
+    text-decoration: none;
+    margin-top:5px;
+    color:black;
+}
+div.menu p{
+    margin-bottom: -11px;
+    margin-top: 32px;
+    font-size: 17px;
+}
+div.contactus h2{
+    margin-top: 27px;
+}
+div.contactus p{
+    margin-top: 9px;
+}
+div.amol h2{
+    margin-top: 25px;
+    margin-bottom:9px;
+}
+div.socialmedia{
+    width:100%;
+    background-color: rgb(220 231 228);
+    text-align:center;
+    height: 93px;
+}
+
+
+
+@media only screen and (max-width:981px){
+    div.infobar{
+        flex-direction: column;
+        height: 463px;
+      
+    }
+    div.image {
+        margin-top: -404px;
+        /* border: 2px solid red; */
+      
+        margin-left: 41%;
+    }
+    div.image img{
+        height: 65%;
+    }
+    div.myself{
+        margin-top: 219px;
+        text-align:center;
+    }
+}
+
+@media only screen and (max-width:938px){
+    ul.Index{
+        display:none;
+    }
+    div.phonemedia{
+        display:block;
+    }
+   
+/* ----------------- */
+
+ul.Index1 {
+  
+   
+    margin-top: 0px;
+    list-style: none;
+    position: relative;
+    background-color: #f9f9ed;
+    top: -24px;
+  
+    flex-direction: left;
+  
+    border: 2px solid;
+  
+    width: 279px;
+    height: 2735px;
+
+}
+div.burger{
+    display:block;
+    top:31px;
+}
+
+ul.Index1 li {
+    margin-bottom: 17px;
+    font-size: 23px;
+}
+ul.Index1 li a{
+    text-decoration: none;
+    color:black;
+    margin-left: 34px;
+
+}
+div.navbar{
+    top:-43px;
+}
+
+
+
+/* ----------------- */
+
+div.container {
+   
+    margin-top: -2856px;
+}
+    div.media {
+        margin-left: 2%;
+    }
+}
+
+@media only screen and (max-width:816px){
+    div.contactus {
+        margin-left: 8%;
+    }
+
+    div.menu {
+        margin-left: 12%;
+    }
+
+}
+
+@media only screen and (max-width:792px){
+    div.services{
+        flex-direction:column;
+        height: 688px;
+        margin-top: 1px;
+    }
+    div.software {
+        /* margin-left: 9%; */
+        /* border: 2px solid red; */
+        width: 87%;
+        margin: auto;
+        border-radius: 9px;
+        background-color: #e7e7e7;
+        /* text-align: center; */
+    }
+    div.Web {
+        /* margin-left: 14%; */
+        /* border: 2px solid red; */
+        width: 87%;
+        margin: auto;
+        border-radius: 9px;
+        background-color: #e7e7e7;
+        margin-top: 28px;
+    }
+    div.result {
+       
+        /* border: 2px solid red; */
+        width: 87%;
+        margin: auto;
+        border-radius: 9px;
+        background-color: #e7e7e7;
+        margin-top: 28px;
+    }
+    div.contactme{
+        height: 569px;
+        flex-direction: column;
+        text-align: center;
+    }
+    div.amol {
+        width: 71%;
+        /* border: 2px solid; */
+        margin: auto;
+        margin-top: 37px;
+        align-items: center;
+        height: 154px;
+    }
+    div.contactus {
+        margin-left: 8%;
+        margin: auto;
+        width: 71%;
+        /* border: 2px solid; */
+        height: 164px;
+    }
+    div.menu {
+        width: 71%;
+        height: 149px;
+        margin: auto;
+        /* border: 2px solid; */
+      
+       
+    }
+}
+@media only screen and (max-width:618px){
+    div.image {
+        margin-left:31%;
+    }
+}
+@media only screen and (max-width:500px){
+    div.image {
+        left: -87px;
+       
+    }
+    div.image img {
+        height: 57%;
+    }
+    div.myself {
+        margin-top: 219px;
+        text-align: center;
+        margin-left: 1px;
+    }
+}
+
+@media only screen and (max-width:481px){
+    div.image{
+        margin-left:20%;
+    }
+}
+@media only screen and (max-width:365px){
+    div.services {
+     
+        height: 775px;
+    }
+}
+
+@media only screen and (max-width:318px){
+    div.image {
+        /* left: -87px; */
+        margin-left: 20%;
+        margin-left: 5;
+        height: 147px;
+        width: 141px;
+    }
+    div.image img {
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:283px){
+
+    div.image{
+        margin-top: -321px;
+    }
+
+}
